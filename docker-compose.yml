@@ -12,8 +12,3 @@ services:
     image: ubuntu2004py3
     stdin_open: true
     tty: true
-  fedora:
-    container_name: fedora
-    image: pycontribs/fedora:latest
-    stdin_open: true # docker run -i
-    tty: true        # docker run -t
